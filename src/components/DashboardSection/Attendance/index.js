@@ -1,22 +1,9 @@
-import React from 'react';
-import HeaderCard from './HeaderCard';
-import GraphSection from './GraphSection';
-import CalendarSection from './CalendarSection';
-import '../../ComponentsCss/Attendance/Attendance.css';
+import React from 'react'
 
-
-const Attendance = () => {
+export default function Attendance() {
   return (
-    <div className="container">
-      <HeaderCard />
-      <div className="clock-graph-section">
-        <CalendarSection />
-        <GraphSection />
-      </div>
+    <div>
+        <h2>Attendance</h2>
     </div>
-  );
-};
-
-export default Attendance;
-
-
+  )
+}

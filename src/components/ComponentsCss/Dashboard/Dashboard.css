@@ -4,7 +4,7 @@
   }
   
   .sidebar {
-    width: 220px;
+    width: 178px;
     height: 881px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -41,7 +41,6 @@
   }
   
   .main-content {
-    background: white;
     flex-grow: 1;
     padding: 20px;
   }

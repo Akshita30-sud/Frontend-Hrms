@@ -7,6 +7,7 @@ body {
 .request-form {
   width: 563px;
   height: 714px;
+  margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -15,8 +16,8 @@ body {
 }
 
 .sign-in-form {
-  width: 400px; 
-  height: 500px; 
+  width: 400px; /* Adjust this value as needed */
+  height: 500px; /* Adjust this value as needed */
 }
 
 .form-title {
@@ -219,15 +220,25 @@ body {
   color: rgba(17, 17, 19, 0.6);
 }
 
+/* Sign-in form specific styles */
 .sign-in-form .form-title {
-  font-size: 40px; 
+  font-size: 40px; /* Adjust as needed */
 }
 
 .sign-in-form h3 {
-  font-size: 18px; 
+  font-size: 18px; /* Adjust as needed */
 }
 
 .sign-in-form .login-button {
-  width: 39%; 
-  margin-right: 30%;
+  width: 39%; /* Adjust as needed */
+  margin-right: 30%; /* Adjust as needed */
 }
+
+
+
+
+
+
+  
+  
+  
