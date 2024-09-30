@@ -1,0 +1,91 @@
+{
+  "data": {
+      "labels" : {
+      
+      "leaveLabel" : "Leave",
+      "approveLabel" : "Approve",
+      "rejectedLabel" : "Rejected"
+      },  
+    "_id": "66ba01ccb224800520b2765b",
+    "requestor_id": "HR-002",
+    "request_type": "Leave Request",
+    "SickLeave": 14, 
+    "EarnedLeave": 21,
+    "PaidLeave":3,
+    "start_date": "2024-08-07T11:35:29.727Z",
+    "end_date": "2024-08-07T11:35:29.727Z",
+    "reason": "testing",
+    "user": {
+    "employee_id": "HR-002",
+    "name": "HARI MOHAN SHARMA",
+    "email_id": "mailto:test2@yopmail.com"
+    
+    
+  },
+
+  "appliedDates": [
+    {
+      "dateRange": "08-08-2024 - 10-08-2024",
+      "leaveType": "Sick Leave"
+    },
+    {
+      "dateRange": "12-08-2024",
+      "leaveType": "Earned Leave"
+    },
+    {
+      "dateRange": "18-09-2024",
+      "leaveType": "Second Half"
+    },
+    {
+      "dateRange": "19-09-2024",
+      "leaveType": "Full Day"
+    }
+  ],
+
+
+    "list_of_approvers": [
+      {
+        "employee_id": "HR-002",
+        "name": "Mike",
+        "email_id": "mailto:test2@yopmail.com",
+        "_id": "66b45de402c5276e3da61a4d"
+      },
+      {
+        "employee_id": "HR-003",
+        "name": "Admin",
+        "email_id": "mailto:admin@yopmail.com",
+        "_id": "66b45de402c5276e3da61a4e"
+      }
+    ],
+
+"approversDetails": [
+    {
+      "approverName": "abc",
+      "status": "Approved",
+      "date": "2024-08-05",
+      "remarks": "All good"
+    },
+    {
+      "approverName": "xyz",
+      "status": "Pending",
+      "date": "2024-08-06",
+      "remarks": "Under Review"
+    },
+    {
+      "approverName": "klm",
+      "status": "Rejected",
+      "date": "2024-08-07",
+      "remarks": "Insufficient data"
+    }
+  ],
+
+    
+    "status": "Approved",
+    "current_approver_id": "HR-002",
+    "raised_on": "2024-08-12T12:36:15.719Z",
+    "accepted_array": [],
+    "rejected_array": [],
+    "__v": 0
+  },
+  "success":true
+}

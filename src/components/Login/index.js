@@ -1,4 +1,4 @@
-import './Login.css';
+import '../ComponentsCss/Login/Login.css';
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -22,9 +22,11 @@ export default function Login() {
     setErrorMessage('');
 
     if (formType === "signIn") {
+      const url = `${process.env.REACT_APP_API_URL}/login`;
+      console.log(url)
       try {
         const response = await axios.post(
-          `${process.env.REACT_APP_API_URL}/login`,
+          url,
           {
             email: formData.email,
             password: formData.password

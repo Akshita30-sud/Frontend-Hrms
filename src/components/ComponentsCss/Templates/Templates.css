@@ -29,7 +29,7 @@
 
 .templates__search input:focus {
   outline: none;
-  border-color: #0056b3;
+  border-color:  rgb(250, 31, 119);
   box-shadow: 0 0 0 0.2rem rgba(0,86,179,0.25);
 }
 
